@@ -10,7 +10,7 @@ headers = {
     'Accept-Encoding': 'gzip, deflate',
     'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
     'Connection': 'keep-alive',
-    'Cookie': 'JSESSIONID=1504516DF6AD396E7868E079A21C7015; __utma=108824541.1856663078.1500194228.1500194228.1500194228.1; __utmc=108824541; __utmz=108824541.1500194228.1.1.utmcsr=uestc.edu.cn|utmccn=(referral)|utmcmd=referral|utmcct=/; iPlanetDirectoryPro=AQIC5wM2LY4SfcxiyiEwk2QZWmCTwjil60oDsiQaSgi6Q0A%3D%40AAJTSQACMDE%3D%23',
+    'Cookie': 'input your cookie here',
     'Host': 'yjsjy.uestc.edu.cn',
     'Upgrade-Insecure-Requests': '1',
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0'

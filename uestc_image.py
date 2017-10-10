@@ -65,6 +65,8 @@ def mkdir_for_pic(grade='2017', institute='2206', iclass='05'):
 def work(baseurl='http://yjsjy.uestc.edu.cn/pyxx/grxx/xszphd/zp/xj/', grade='2017', institute='2206', iclass='05'):
     for i in generate_student_id(grade, institute, iclass):
         pic = requests.get(baseurl + i, headers=headers)
+        if len(pic.content)<=4*1024:
+            continue
         temp_dir = mkdir_for_pic(grade, institute, iclass)
         print temp_dir + '/' + i + '.jpg'
         temp_pic_file = open(temp_dir + '/' + i + '.jpg', 'wb')
